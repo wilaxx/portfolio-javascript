@@ -5,3 +5,5 @@ const must = ['Kubernetes', 'DevOps', 'TerraForm', 'Docker', 'Rust', 'Python', '
 let i = Math.floor(Math.random() * (known.length + 1));
 let j = Math.floor(Math.random() * (improvements.length + 1));
 let k = Math.floor(Math.random() * (must.length + 1));
+
+console.log(`You know : ${known[i]}\nYou should practice : ${improvements[j]}\nYou must learn : ${must[k]}`);
